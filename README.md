@@ -14,10 +14,10 @@ module.exports = {
 }
 ```
 **Add test case files**
+`
 ├── tests
 │ ├── auth
 │ │ └── auth.test.js
 │ ├──user
 │ │ └── user.test.js
-
-
+`
