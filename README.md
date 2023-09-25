@@ -21,3 +21,8 @@ module.exports = {
 │ ├──user
 │ │ └── user.test.js
 ```
+
+**Run the following to get test result**
+```
+npx jest
+```
