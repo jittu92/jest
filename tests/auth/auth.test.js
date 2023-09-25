@@ -6,9 +6,6 @@ const app = require("../../app");
     beforeAll( () => {
         mongoose.connect(process.env.MONGODB_URI, {
             dbName:process.env.MONGO_DATABASE
-            // useNewUrlParser: true,
-            // useUnifiedTopology: true,
-            // useCreateIndex: true,
         });
     });
 /* Connecting to the database before each test. */
